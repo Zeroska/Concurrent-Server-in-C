@@ -1,0 +1,3 @@
+This is why I use select over the fork thing because fork need to wait for the terminated signal from kernel 
+And it might leave the zombie process and thing will get litter messier with the SIGCLHD and I don't wanna to 
+install the damn Singal hanlder for that, select and all the FD set is good for me I guess

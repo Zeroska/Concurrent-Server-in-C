@@ -8,7 +8,10 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <pthread.h>
-#include <errno.h>
+#include <errno.h> // this is for the error 
+
+#ifdef DEBUG
+#endif
 
 //Server using thread based or process based
 
